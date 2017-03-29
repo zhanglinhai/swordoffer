@@ -9,6 +9,13 @@ public class BinaryTreeNode {
     public BinaryTreeNode leftTreeNode;
     public BinaryTreeNode rightTreeNode;
 
+    public BinaryTreeNode() {
+    }
+
+    public BinaryTreeNode(int data) {
+        this.data = data;
+    }
+
     public int getData() {
         return data;
     }
